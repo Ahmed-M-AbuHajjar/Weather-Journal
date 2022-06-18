@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+   <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-4">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link rounded-pill active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link rounded-pill" href="#">News</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link rounded-pill" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link rounded-pill" href="#">Photos</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link rounded-pill" href="#">Contact</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+   </header> 
+    <section class="content">
+        <div class="slider h-100">
+            <div class="container">
+                <div class="d-flex pt-5">
+                    <input class=" py-3 search-box form-control me-2 rounded-pill border-0" id="search-box" type="search" placeholder="Find your location..." aria-label="Search">
+                  </div>
+                  <div class="card-group mt-5 pb-5">
+                    <div class="card today" id="today" >
+                      
+                    </div>
+                    <div class="card tomorrow" id="tomorrow">
+                       
+                    </div>
+                    <div class="card after-tomorrow" id="thirdDay">
+                  
+                      
+                    </div> 
+                  </div>
+                  
+                </div>
+        </div>
+        
+    </section>
+    <footer class="footer py-3">
+        <div class="container">
+            <div class="row"> 
+                 <div class="col-lg-7">
+                <form class="d-flex pt-5">
+                    <input class=" py-3 email-box form-control me-2 rounded-pill border-0" type="search" placeholder="Enter your email to subscribe..." aria-label="Search">
+                    <button class="btn btn-outline-success sub-btn rounded-pill" type="submit">Subscribe</button>
+                  </form>
+            </div>
+            <div class="col-lg-5 contact-links">
+                <ul class="list-unstyled d-flex mt-5">
+                    <li><a href="">
+                        <i class="p-3 mx-2 fa-brands fa-facebook-f"></i>
+                    </a></li>
+                    <li><a href="">
+                        <i class="p-3 mx-2 fa-brands fa-twitter"></i>
+                    </a></li>
+                    <li><a href="">
+                        <i class="p-3 mx-2 fa-brands fa-google-plus-g"></i>                    </a></li>
+                    <li><a href="">
+                        <i class="p-3 mx-2 fa-brands fa-pinterest"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-light">Copyright 2014 Company name. All rights reserved</p> 
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
