@@ -1,0 +1,119 @@
+body{
+    background-color: #1E202B;
+}
+.header{
+    background-color: #1E202B;
+}
+.nav-link{
+    color: #FBC018 !important;
+    border:solid #FBC018 !important;
+    border-radius: 16px;
+}
+.nav-link:hover{
+    background-color: #FBC018 !important;
+    color: white !important;
+}
+.navbar-brand img{
+    width: 180px;
+}
+.active{
+    background-color: #FBC018 !important;
+    color: white !important;
+}
+.content{
+    background:url("../images/Background.png") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content .slider{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.search-box{
+    background-color: #1E202B;
+    color: #bfc1c8;
+}
+.search-box:focus{
+    background-color: #1E202B;
+    color: #bfc1c8;
+}
+
+.card-top{
+    color: #bfc1c8;
+}
+.card-title{
+    color: #bfc1c8 !important;
+}
+.today{
+    background-color: #323544;
+    color: white;
+}
+.today .temperature{
+    font-size: 6rem;
+}
+.today i{
+    font-size: 3rem;
+}
+.today li{
+    color: #bfc1c8 !important;
+}
+.today li i{
+    font-size: 1.2rem;
+}
+.today .card-top{
+    background-color: #2D303D;
+}
+.tomorrow{
+    background-color: #1E202B;
+    color: white;
+}
+.card-body .min-degree{
+    color: #bfc1c8 !important;
+}
+.card-body .max-degree{
+    font-size: 2rem;
+}
+.tomorrow .card-top{
+    background-color: #222531;
+}
+.after-tomorrow{
+    background-color: #323544;
+    color: white;
+}
+.after-tomorrow .card-top{
+    background-color: #2D303D;
+}
+.card{
+    border: none;
+}
+.weather-condition{
+    color: dodgerblue;
+}
+.footer{
+    background-color: #262936;
+}
+.footer .email-box{
+    background-color: #1E202B;
+}
+.footer .email-box:focus{
+    background-color: #1E202B;
+}
+.footer .sub-btn{
+    color: #FBC018 !important;
+    border:solid #FBC018 !important;
+    transition:ease-in-out 0.2s;
+}
+.footer .sub-btn:hover{
+    background-color: #FBC018 !important;
+    color: white !important;
+}
+.contact-links i{
+    background-color: #1E202B;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FBC018;
+}
+.contact-links i:hover{
+    background-color: #FBC018 !important;
+    color: white !important;
+}
