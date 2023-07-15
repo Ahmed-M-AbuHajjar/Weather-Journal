@@ -21,7 +21,7 @@ body{
     color: white !important;
 }
 .content{
-    background:url("../images/Background.png") ;
+    background:url("../Images/Background.png") ;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
